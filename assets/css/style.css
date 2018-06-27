@@ -7,18 +7,59 @@
     font-family: 'IBM Plex Mono', monospace;
 }
 
+#title {
+    text-align: center;
+}
 
 .instructions {
     font-size: 24px;
 }
 
 #startBtn {
-    align-content: center;
+    align-self: center;
 }
 
 #introPic {
   margin-top: 20px;
   border-style: solid;
   border-width: 10px;
-  border-color: blue
+  border-color:	#5bc0de;
+}
+
+
+
+#quizBody {
+    background-color: rgb(177, 228, 177);
+    margin-top: 30px;
+    text-align: left;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#questionContainer {
+    background-color: rgb(177, 228, 177);
+    margin-top: 30px;
+    text-align: left;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+}
+.questionForm {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.radioButtons {
+    float: left;
+}
+
+#resultsBox {
+    background-color: rgb(177, 228, 177);
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    margin-top: 50px;
 }
